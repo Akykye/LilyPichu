@@ -1692,15 +1692,6 @@
 :root .ready-3BZNWT + .text-2bYgPB {
   top: 82px;
 }
-:root .ready-3BZNWT + .text-2bYgPB::before {
-  content: "";
-  position: absolute;
-  bottom: 100px;
-  left: 50px;
-  width: 200px;
-  height: 200px;
-  background: url("https://i.imgur.com/dCd49s0.gif") center/80% no-repeat;
-}
 :root #permissions-modal-wrapper #permissions-modal {
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(56, 31, 31, 0.11) !important;
           box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(56, 31, 31, 0.11) !important;
@@ -1745,7 +1736,7 @@
             transform: none;
   }
   .container-1eFtFS::after {
-    content: "Stay comfy";
+    content: "";
     position: fixed;
     top: 220px;
     bottom: 85px;
@@ -1767,17 +1758,6 @@
     color: var(--text-normal);
     border-radius: var(--border-radius);
     overflow: hidden;
-  }
-  .container-1eFtFS::before {
-    content: "";
-    position: fixed;
-    top: 220px;
-    bottom: 85px;
-    right: 70px;
-    z-index: -1;
-    width: 300px;
-    border-radius: var(--border-radius);
-    background: var(--jumping-gif) bottom/40% no-repeat;
   }
   .guilds-2JjMmN + :nth-child(2) {
     margin-right: 450px;
